@@ -1,5 +1,5 @@
 ---
-title: 'LogContrast: A Weakly Supervised Anomaly Detection Method Leveraging Contrastive Learning'
+title: 'LogPrompt: A Log-based Anomaly Detection Framework Using Prompts'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -8,16 +8,16 @@ authors:
   - Ting Zhang
   - Xin Huang
   - Wen Zhao
-  - Guozhao Mo
   - Shaohuang Bian
+  - Peng Du
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2023-12-25T00:00:00Z'
-doi: '10.1109/QRS60937.2023.00015'
+date: '2023-08-02T00:00:00Z'
+doi: '10.1109/IJCNN54540.2023.10191948'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-05-09T00:00:00Z'
@@ -28,10 +28,10 @@ publishDate: '2024-05-09T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Conference on Software Quality, Reliability, and Security (QRS)*, 2023
-publication_short: In *International Conference on Software Quality, Reliability, and Security (QRS)*, 2023
+publication: In *International Joint Conference on Neural Networks (IJCNN)*, 2023
+publication_short: In *International Joint Conference on Neural Networks (IJCNN)*, 2023
 
-abstract: "We propose a novel log-based anomaly detection method that leverages weakly supervised contrastive learning, named LogContrast. LogContrast aims to address the issues of limited and noisy labeled logs in real-world scenarios. During the training stage, LogContrast first augments the current log feature through dropout. Subsequently, it treats the current log feature and the augmented feature as a positive pair, while treating the current log feature and other log features in the same batch as negative pairs. The objective is to pull the positive pairs closer together and push the negative pairs farther apart, thereby encouraging similar logs to be closer to each other and dissimilar logs to be farther apart in the feature space. The experimental results demonstrate the excellent performance of LogContrast even with limited labeled logs and greater noise resistance compared to fully supervised methods. In addition, we explore the role of semantic features and demonstrate that semantic features have strong adaptability to constantly evolving logs."
+abstract: "Log data are widely used in anomaly detection tasks of software system. At present, log anomaly detection methods based on deep learning have greatly progressed. However, the existing methods have the following limitations: (1) Logs are at large scale but labeled logs are rare, so training a detection model that requires a number of labeled log data from scratch is costly and impractical; (2) Log anomaly detection tasks usually need to comprehensively consider the semantic and sequential information in logs, but most of the current log anomaly detection frameworks only build models from either aspect; (3) Normal and abnormal logs are imbalanced in real world, which seriously reduces the detection recalls. This paper proposes a log anomaly detection framework called LogPrompt to solve the problems mentioned above. LogPrompt leverages prompts to guide the pretrained language model (PLM) to better learn the semantic and sequential information of logs, and avoids training a model from scratch. Even with few training data, the model achieves good detection performance. Moreover, it uses focal loss instead of cross entropy loss to guide the model optimization during training stage, for alleviating the class imbalance problem. Experiments show that LogPrompt can detect log anomalies more effectively and efficiently by prompts, and it can significantly improve the recalls and F1 scores."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
