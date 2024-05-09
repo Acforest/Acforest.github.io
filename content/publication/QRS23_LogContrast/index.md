@@ -6,7 +6,7 @@ title: 'LogContrast: A Weakly Supervised Anomaly Detection Method Leveraging Con
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - 'Ting Zhang'
-  - '**Xin Huang**'
+  - '*Xin Huang*'
   - 'Wen Zhao'
   - 'Guozhao Mo'
   - 'Shaohuang Bian'
@@ -31,7 +31,7 @@ publication_types: ['paper-conference']
 publication: In *International Conference on Software Quality, Reliability, and Security (QRS)*, 2023
 publication_short: In *QRS*, 2023
 
-abstract: We propose a novel log-based anomaly detection method that leverages weakly supervised contrastive learning, named LogContrast. LogContrast aims to address the issues of limited and noisy labeled logs in real-world scenarios. During the training stage, LogContrast first augments the current log feature through dropout. Subsequently, it treats the current log feature and the augmented feature as a positive pair, while treating the current log feature and other log features in the same batch as negative pairs. The objective is to pull the positive pairs closer together and push the negative pairs farther apart, thereby encouraging similar logs to be closer to each other and dissimilar logs to be farther apart in the feature space. The experimental results demonstrate the excellent performance of LogContrast even with limited labeled logs and greater noise resistance compared to fully supervised methods. In addition, we explore the role of semantic features and demonstrate that semantic features have strong adaptability to constantly evolving logs.
+# abstract: We propose a novel log-based anomaly detection method that leverages weakly supervised contrastive learning, named LogContrast. LogContrast aims to address the issues of limited and noisy labeled logs in real-world scenarios. During the training stage, LogContrast first augments the current log feature through dropout. Subsequently, it treats the current log feature and the augmented feature as a positive pair, while treating the current log feature and other log features in the same batch as negative pairs. The objective is to pull the positive pairs closer together and push the negative pairs farther apart, thereby encouraging similar logs to be closer to each other and dissimilar logs to be farther apart in the feature space. The experimental results demonstrate the excellent performance of LogContrast even with limited labeled logs and greater noise resistance compared to fully supervised methods. In addition, we explore the role of semantic features and demonstrate that semantic features have strong adaptability to constantly evolving logs.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -67,15 +67,15 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+# projects:
+#   - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
 {{% callout note %}}
