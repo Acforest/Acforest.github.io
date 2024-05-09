@@ -28,8 +28,8 @@ publishDate: '2024-05-09T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Conference on Software Quality, Reliability, and Security (QRS)*, 2023
-publication_short: In *International Conference on Software Quality, Reliability, and Security (QRS)*, 2023
+publication: "*International Conference on Software Quality, Reliability, and Security (QRS)*, 2023. (CCF C, Oral)"
+publication_short: "*International Conference on Software Quality, Reliability, and Security (QRS)*, 2023. (CCF C, Oral)"
 
 abstract: "We propose a novel log-based anomaly detection method that leverages weakly supervised contrastive learning, named LogContrast. LogContrast aims to address the issues of limited and noisy labeled logs in real-world scenarios. During the training stage, LogContrast first augments the current log feature through dropout. Subsequently, it treats the current log feature and the augmented feature as a positive pair, while treating the current log feature and other log features in the same batch as negative pairs. The objective is to pull the positive pairs closer together and push the negative pairs farther apart, thereby encouraging similar logs to be closer to each other and dissimilar logs to be farther apart in the feature space. The experimental results demonstrate the excellent performance of LogContrast even with limited labeled logs and greater noise resistance compared to fully supervised methods. In addition, we explore the role of semantic features and demonstrate that semantic features have strong adaptability to constantly evolving logs."
 

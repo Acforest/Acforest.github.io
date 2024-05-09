@@ -1,23 +1,23 @@
 ---
-title: 'LogPrompt: A Log-based Anomaly Detection Framework Using Prompts'
+title: 'Secure Semantic Communication Model for Black-Box Attack Challenge Under Metaverse'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Ting Zhang
+  - Chang Li
+  - Liang Zeng
   - Xin Huang
-  - Wen Zhao
-  - Shaohuang Bian
-  - Peng Du
+  - Xiaqing Miao
+  - Shuai Wang
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2023-08-02T00:00:00Z'
-doi: '10.1109/IJCNN54540.2023.10191948'
+date: '2023-08-01T00:00:00Z'
+doi: '10.1109/MWC.005.2200622'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-05-09T00:00:00Z'
@@ -25,18 +25,18 @@ publishDate: '2024-05-09T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: "*International Joint Conference on Neural Networks (IJCNN)*, 2023. (CCF C, Oral)"
-publication_short: "*International Joint Conference on Neural Networks (IJCNN)*, 2023. (CCF C, Oral)"
+publication: "*IEEE Wireless Communications*, 2023. (JCR Q1, IF=12.9)"
+publication_short: "*IEEE Wireless Communications*, 2023. (JCR Q1, IF=12.9)"
 
-abstract: "Log data are widely used in anomaly detection tasks of software system. At present, log anomaly detection methods based on deep learning have greatly progressed. However, the existing methods have the following limitations: (1) Logs are at large scale but labeled logs are rare, so training a detection model that requires a number of labeled log data from scratch is costly and impractical; (2) Log anomaly detection tasks usually need to comprehensively consider the semantic and sequential information in logs, but most of the current log anomaly detection frameworks only build models from either aspect; (3) Normal and abnormal logs are imbalanced in real world, which seriously reduces the detection recalls. This paper proposes a log anomaly detection framework called LogPrompt to solve the problems mentioned above. LogPrompt leverages prompts to guide the pretrained language model (PLM) to better learn the semantic and sequential information of logs, and avoids training a model from scratch. Even with few training data, the model achieves good detection performance. Moreover, it uses focal loss instead of cross entropy loss to guide the model optimization during training stage, for alleviating the class imbalance problem. Experiments show that LogPrompt can detect log anomalies more effectively and efficiently by prompts, and it can significantly improve the recalls and F1 scores."
+abstract: "The Metaverse is the post-reality universe, a perpetual and persistent multiuser environment merging physical reality with digital virtuality. It is a new type of Internet application and social form that integrates a variety of new technologies. The realization of the Metaverse has extremely high demands on the communication traffic density, which needs a new communication technology. Semantic communication, regarded as the breakthrough beyond the Shannon paradigm, will be one of the key research fields of the Metaverse. It aims at the successful transmission of semantic information conveyed by the source rather than the accurate reception of every single symbol or bit regardless of its meaning. However, semantic communication faces the challenge of black-box attacks and poses security risks of information leakage and tampering. For black-box attacks, this article points out three approaches to secure semantic communication: secure communication model based on semantic block, semantic variable coding, and hybrid channel with hidden task. The security of semantic communication can be improved through these methods."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [Log-based Anomaly Detection]
+tags: [Semantic Communication]
 
 # Display this page in the Featured widget?
 featured: true
