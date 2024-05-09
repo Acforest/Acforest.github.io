@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Xin Huang (黄鑫)
+title: Xin Huang
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Master
+role: Master's student
 
 # Organizations/Affiliations to show in About widget
 organizations:
