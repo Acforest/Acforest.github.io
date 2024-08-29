@@ -42,11 +42,11 @@ tags: [Log-based Anomaly Detection]
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
+links:
 # - name: Custom Link
 #   url: http://example.org
 
-# url_pdf: ''
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/10191948'
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_poster: ''

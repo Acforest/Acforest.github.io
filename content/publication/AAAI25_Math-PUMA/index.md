@@ -1,42 +1,42 @@
 ---
-title: 'Secure Semantic Communication Model for Black-Box Attack Challenge Under Metaverse'
+title: 'Math-PUMA: Progressive Upward Multimodal Alignment to Enhance Mathematical Reasoning'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Chang Li
-  - Liang Zeng
+  - Wenwen Zhuang
   - Xin Huang
-  - Xiaqing Miao
-  - Shuai Wang
+  - Xiantao Zhang
+  - Jin Zeng
 
 # Author notes (optional)
-# author_notes:
-#   - 'Equal contribution'
-#   - 'Equal contribution'
+author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Equal contribution'
 
-date: '2023-08-01T00:00:00Z'
-doi: '10.1109/MWC.005.2200622'
+# date: '2023-08-02T00:00:00Z'
+# doi: '10.1109/IJCNN54540.2023.10191948'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-05-09T00:00:00Z'
+publishDate: '2024-08-16T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['article-journal']
+publication_types: ['article']
 
 # Publication name and optional abbreviated publication name.
-publication: "*IEEE Wireless Communications*, 2023. (JCR Q1, IF=12.9)"
-publication_short: "*IEEE Wireless Communications*, 2023. (JCR Q1, IF=12.9)"
+publication: "*arXiv*, 2024."
+publication_short: "*arXiv*, 2024."
 
-abstract: "The Metaverse is the post-reality universe, a perpetual and persistent multiuser environment merging physical reality with digital virtuality. It is a new type of Internet application and social form that integrates a variety of new technologies. The realization of the Metaverse has extremely high demands on the communication traffic density, which needs a new communication technology. Semantic communication, regarded as the breakthrough beyond the Shannon paradigm, will be one of the key research fields of the Metaverse. It aims at the successful transmission of semantic information conveyed by the source rather than the accurate reception of every single symbol or bit regardless of its meaning. However, semantic communication faces the challenge of black-box attacks and poses security risks of information leakage and tampering. For black-box attacks, this article points out three approaches to secure semantic communication: secure communication model based on semantic block, semantic variable coding, and hybrid channel with hidden task. The security of semantic communication can be improved through these methods."
+abstract: "Multimodal Large Language Models (MLLMs) excel in solving text-based mathematical problems, but they struggle with mathematical diagrams since they are primarily trained on natural scene images. For humans, visual aids generally enhance problem-solving, but MLLMs perform worse as information shifts from textual to visual modality. This decline is mainly due to their shortcomings in aligning images and text. To tackle aforementioned challenges, we propose Math-PUMA, a methodology focused on Progressive Upward Multimodal Alignment. This approach is designed to improve the mathematical reasoning skills of MLLMs through a three-stage training process, with the second stage being the critical alignment stage. We first enhance the language model's mathematical reasoning capabilities with extensive set of textual mathematical problems. We then construct a multimodal dataset with varying degrees of textual and visual information, creating data pairs by presenting each problem in at least two forms. By leveraging the Kullback-Leibler (KL) divergence of next-token prediction distributions to align visual and textual modalities, consistent problem-solving abilities are ensured. Finally, we utilize multimodal instruction tuning for MLLMs with high-quality multimodal data. Experimental results on multiple mathematical reasoning benchmarks demonstrate that the MLLMs trained with Math-PUMA surpass most open-source MLLMs. Our approach effectively narrows the performance gap for problems presented in different modalities."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [Semantic Communication]
+tags: [Multimodal Large Language Model]
 
 # Display this page in the Featured widget?
 featured: true
@@ -46,7 +46,7 @@ links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://ieeexplore.ieee.org/document/10251845'
+url_pdf: 'https://arxiv.org/abs/2408.08640'
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_poster: ''
