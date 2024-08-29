@@ -110,13 +110,11 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/XinHuang-CV.pdf
+    link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I am a second-year postgraduate from Beijing Institute of Technology, and I received B.Eng from China Agricultural University in 2022.
-
-My research interests include deep learning (DL) and natural language processing (NLP), and I have been working on log-based anomaly detection and semantic communication leveraging NLP methods.
+I am a third-year postgraduate from Beijing Institute of Technology, and expected to graduate in July 2025. My research interests include deep learning (DL) and natural language processing (NLP), and I have been working on log-based anomaly detection (NLP for software engineering), semantic communications (NLP for communications), and vulnerability detection based on large language models (NLP for security). Now, I am focusing on multimodal large language models (MLLMs) for solving mathematical problems at ByteDance.
 {style="text-align: justify;"}
