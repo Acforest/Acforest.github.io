@@ -116,5 +116,5 @@ social:
 highlight_name: true
 ---
 
-I am a third-year postgraduate from Beijing Institute of Technology, and expected to graduate in July 2025. My research interests include deep learning (DL) and natural language processing (NLP), and I have been working on log-based anomaly detection (NLP for software engineering), semantic communications (NLP for communications), and vulnerability detection based on large language models (NLP for security). Now, I am focusing on multimodal large language models (MLLMs) for solving mathematical problems at ByteDance.
+I am a third-year postgraduate from Beijing Institute of Technology, and expected to graduate in July 2025. My research interests include deep learning (DL) and natural language processing (NLP), and I have been working on log-based anomaly detection (NLP for software engineering), semantic communications (NLP for communications), and multimodal large language models (MLLMs) for solving mathematical problems.
 {style="text-align: justify;"}
