@@ -20,7 +20,7 @@ author_notes:
 # doi: '10.1109/IJCNN54540.2023.10191948'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-08-16T00:00:00Z'
+publishDate: '2025-01-16T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -28,8 +28,8 @@ publishDate: '2024-08-16T00:00:00Z'
 publication_types: ['article']
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv*, 2024"
-publication_short: "*arXiv*, 2024"
+publication: "*AAAI*, 2025"
+publication_short: "*AAAI*, 2025"
 
 abstract: "Multimodal Large Language Models (MLLMs) excel in solving text-based mathematical problems, but they struggle with mathematical diagrams since they are primarily trained on natural scene images. For humans, visual aids generally enhance problem-solving, but MLLMs perform worse as information shifts from textual to visual modality. This decline is mainly due to their shortcomings in aligning images and text. To tackle aforementioned challenges, we propose Math-PUMA, a methodology focused on Progressive Upward Multimodal Alignment. This approach is designed to improve the mathematical reasoning skills of MLLMs through a three-stage training process, with the second stage being the critical alignment stage. We first enhance the language model's mathematical reasoning capabilities with extensive set of textual mathematical problems. We then construct a multimodal dataset with varying degrees of textual and visual information, creating data pairs by presenting each problem in at least two forms. By leveraging the Kullback-Leibler (KL) divergence of next-token prediction distributions to align visual and textual modalities, consistent problem-solving abilities are ensured. Finally, we utilize multimodal instruction tuning for MLLMs with high-quality multimodal data. Experimental results on multiple mathematical reasoning benchmarks demonstrate that the MLLMs trained with Math-PUMA surpass most open-source MLLMs. Our approach effectively narrows the performance gap for problems presented in different modalities."
 
@@ -47,8 +47,8 @@ links:
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/abs/2408.08640'
-# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-# url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: 'https://github.com/wwzhuang01/Math-PUMA'
+url_dataset: 'https://huggingface.co/Math-PUMA'
 # url_poster: ''
 # url_project: ''
 # url_slides: ''
